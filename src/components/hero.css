@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Overpass", sans-serif;
+  color: white;
+}
+
+.hero-section {
+  background: rgb(11, 19, 40);
+  background: linear-gradient(
+    180deg,
+    rgba(11, 19, 40, 1) 0%,
+    rgba(17, 35, 76, 1) 100%
+  );
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 100%;
+}
+
+.content {
+  width: 1140px;
+  margin: 0 auto;
+  font-size: 24px;
+  font-weight: 200;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-container {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 64px 75px 0 75px;
+}
+
+.subheader {
+  padding: 3vh;
+}
+
+span::before {
+  content: "";
+  animation: animate infinite 15s;
+}
+@keyframes animate {
+  0% {
+    content: "engagements.";
+  }
+  20% {
+    content: "analytics.";
+  }
+  40% {
+    content: "APIs.";
+  }
+  60% {
+    content: "advertising.";
+  }
+  80% {
+    content: "delivery.";
+  }
+  100% {
+    content: "SDKs.";
+  }
+}
+
+#btn-primary {
+  background-color: #fe0146;
+  border: 2.5px solid #fe0146;
+  cursor: pointer;
+  padding: 1vh 2vw;
+  border-radius: 1.5vw;
+  text-decoration: none;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.video {
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}

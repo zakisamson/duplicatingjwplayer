@@ -22,7 +22,7 @@ class Navbar extends Component {
                         </ul>
                     </div>
                     <div className="navbar-right">
-                    <ul id="navlist-right" type="none">
+                        <ul id="navlist-right" type="none">
                             <li>Support</li>
                             <li>Dashboard</li>
                             <li><a id="btn-cta">Pricing</a></li>
