@@ -46,7 +46,7 @@ nav {
   font-size: large;
   width: 50%;
   float: right;
-  margin-top: 13px;
+  margin-top: 5px;
 }
 
 #btn-cta {
@@ -58,4 +58,8 @@ nav {
 
 #btn-cta:hover {
   background-color: #fe0146;
+}
+
+#navlist-left img {
+  width: 75px;
 }

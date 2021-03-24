@@ -9,7 +9,7 @@ class Hero extends Component {
     render() { 
         return ( 
             <div className="hero-section">
-                <div className="content">
+                <div className="hero-content">
                     <h1 className="heading">Unlock the power of video <span></span></h1>
                     <p className="subheader">Grow your business with JW Player's flexible platform of video services, powered by billions of signals from across our vast network.</p>    
                     <a id="btn-primary" href="#">Get started</a>

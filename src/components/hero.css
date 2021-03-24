@@ -2,7 +2,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Overpass", sans-serif;
 }
 
 .hero-section {
@@ -19,7 +18,7 @@
   margin-bottom: 200px;
 }
 
-.content {
+.hero-content {
   width: 1140px;
   margin: 0 auto;
   font-size: 24px;
@@ -29,17 +28,21 @@
   align-items: center;
 }
 
-.content .heading {
+.hero-content .heading {
   text-align: center;
   justify-content: center;
   align-items: center;
   padding: 64px 75px 0 75px;
   font-weight: 800;
   width: 1140px;
+  color: white;
+  font-family: "Overpass", sans-serif;
 }
 
-.content .subheader {
+.hero-content .subheader {
   padding: 5vh;
+  color: white;
+  font-weight: 300;
 }
 
 span::before {
@@ -67,7 +70,7 @@ span::before {
   }
 }
 
-.content #btn-primary {
+.hero-content #btn-primary {
   background-color: #fe0146;
   border: 2.5px solid #fe0146;
   cursor: pointer;
@@ -76,11 +79,12 @@ span::before {
   text-decoration: none;
   margin-top: 30px;
   margin-bottom: 70px;
+  color: white;
+  font-weight: 400;
 }
 
-.content iframe {
-  padding-top: 50px;
-  padding-bottom: 0px;
+.hero-content iframe {
+  margin-top: 0px;
   position: relative;
   top: 75px;
   box-shadow: 0px 6px 10px 0 rgba(0, 0, 0, 0.2);

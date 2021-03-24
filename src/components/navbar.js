@@ -13,7 +13,7 @@ class Navbar extends Component {
                     <div className="navbar-left">
                         <ul id="navlist-left" type="none">
                             <li style={{ width:'10%'}}>
-                                <img src="https://cdn.freelogovectors.net/wp-content/uploads/2018/11/jwplayer-logo.png" width="115%"></img></li>
+                                <img src="https://cdn.freelogovectors.net/wp-content/uploads/2018/11/jwplayer-logo.png"></img></li>
                             <li>Products</li>
                             <li>Advertisers</li>
                             <li>Solutions</li>

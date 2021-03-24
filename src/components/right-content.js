@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
-import './right-content.css'
+import './right-content.css';
 
 function Right_content(props) {
     return(
-        <div className="right-content">   
-            <div className="content">
-                <div className="left-col">
-                    <div>{props.tinyheader}</div>
+        <div id="container">   
+            <div className="right-content">
+                <div className="rc-left-col">
+                    <div className="tiny-header-right">{props.tinyheader}</div>
                     <h2>{props.header}</h2>
                     <p>{props.caption}</p>
-                    <a href="#">{props.btncaption}</a>
+                    <a href={props.btnlink}>{props.btncaption}</a>
                 </div>
-                <div className="right-col">
+                <div className="rc-right-col">
                     <img src={props.imagesource}></img>
                 </div>
             </div>

@@ -1,0 +1,60 @@
+#container {
+  width: 1140px;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  margin: 0 auto;
+}
+
+.left-content {
+  color: black;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.lc-right-col {
+  width: 50%;
+}
+
+.left-content .tiny-header-right {
+  padding-left: 5px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  color: #8797b2;
+}
+
+.left-content h2 {
+  font-family: "Overpass", sans-serif;
+  padding: 5px;
+  font-size: 56px;
+  line-height: 1;
+}
+
+.left-content p {
+  padding-top: 20px;
+  padding-bottom: 25px;
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+.left-content a {
+  font-size: 16;
+  color: white;
+  background-color: #ec0041;
+  border: 2px solid #ec0041;
+  text-decoration: none;
+  border-radius: 2vw;
+  padding: 1vh 2vw;
+}
+
+.lc-left-col {
+  width: 50%;
+  position: relative;
+  right: 300px;
+  overflow: visible;
+}
+
+img {
+  width: 800px;
+}

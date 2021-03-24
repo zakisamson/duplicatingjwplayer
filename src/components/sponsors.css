@@ -1,0 +1,11 @@
+.sponsors-section {
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding-bottom: 100px;
+}
+
+.sponsors-section img {
+  width: 1140px;
+}
